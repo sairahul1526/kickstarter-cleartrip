@@ -1,0 +1,22 @@
+.row {
+    /* column width */
+    column-width: 19em;
+	-moz-column-width: 19em;
+	-webkit-column-width: 19em;
+	
+    /* space between columns */
+    column-gap: 1em;
+	-moz-column-gap: 1em;
+	-webkit-column-gap: 1em;
+}
+
+.item {
+	display: inline-block;
+	width: 85%;
+	transition: all .2s ease-in-out;
+}
+
+.item:hover { 
+	transform: scale(1.1);
+}
+
